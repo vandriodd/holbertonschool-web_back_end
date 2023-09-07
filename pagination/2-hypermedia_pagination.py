@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Pagination - simple_pagination module
+Pagination - hypermedia_pagination module
 """
 
 from typing import Tuple, List, Dict
