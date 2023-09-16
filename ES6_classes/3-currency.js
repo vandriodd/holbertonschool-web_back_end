@@ -10,6 +10,7 @@ export default class Currency {
       throw new TypeError(`${property} must be a ${type}`);
     }
     this[`_${property}`] = propertyValue;
+    /* eslint-enable */
   }
 
   displayFullCurrency() {
