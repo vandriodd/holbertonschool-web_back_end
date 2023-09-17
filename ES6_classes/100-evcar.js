@@ -12,10 +12,6 @@ export default class EVCar extends Car {
 
   /* eslint-disable comma-dangle */
   cloneCar() {
-    return new this.constructor[Symbol.species](
-      this.brand,
-      this.motor,
-      this.color
-    );
+    return new this.constructor[Symbol.species]();
   }
 }
